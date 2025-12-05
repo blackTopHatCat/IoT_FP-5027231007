@@ -13,13 +13,13 @@
 
 #define LCD_LEN 16
 
-const char ssid[] = "LANTAI 2";
-const char pass[] = "FKH070452";
-IPAddress address(192,168,110,234);
+const char ssid[] = "WIFI";
+const char pass[] = "PASSWORD";
+IPAddress address(192,168,0,0);
 
 const char topic[]    = "schedule/class";
-const char username[] = "user2";
-const char userpass[] = "pass";
+const char username[] = "user";
+const char userpass[] = "password";
 
 WiFiClient net;
 MQTTClient client;
