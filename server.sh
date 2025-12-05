@@ -10,8 +10,8 @@ ADDRESS="$(ip a show dev "$INTERFACE"| grep -w --colour=never -o -E "$REGEX_IP" 
 MQTT_CONF="$HOME/Sources/scripts/mosquitto.conf"
 SCHEDULE_FILE="$HOME/Sources/scripts/schedule.csv"
 MQTT_TOPIC='schedule/class'
-MQTT_USER='user1'
-MQTT_USERPASS='pass'
+MQTT_USER='user'
+MQTT_USERPASS='password'
 
 # Initialize mqtt server
 init_mosquitto() {
